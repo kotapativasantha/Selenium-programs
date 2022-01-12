@@ -8,6 +8,7 @@ public class backrefresh {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		//Updated code as per the requirement
 		System.setProperty("webdriver.chrome.driver", "C:\\automation software\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://demowebshop.tricentis.com/");
