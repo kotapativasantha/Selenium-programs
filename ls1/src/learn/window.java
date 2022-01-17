@@ -19,7 +19,7 @@ package learn;
 	        tabwindow.click();
 	        Set<String>windowIds=driver.getWindowHandles();
             
-	        Iterator<String>iter=windowIds.iterator();
+	        Iterator<String>iter=windowIds.iterator();//kdshfjbds sdjkhfjds
 	                                
 	        String mainWindow = iter.next();
 	        String childWindow= iter.next();
