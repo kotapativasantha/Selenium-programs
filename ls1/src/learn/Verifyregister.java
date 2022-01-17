@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+//ciu hjghjg giuguyui ljkj 
+
 public class Verifyregister {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
