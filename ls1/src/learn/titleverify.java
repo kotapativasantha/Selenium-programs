@@ -11,7 +11,7 @@ public class titleverify {
 		driver.get("http://demo.automationtesting.in/Register.html");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle().length());
+		System.out.println(driver.getTitle().length());//this is the modified code
 		String expectedl1="http://demowebshop.tricentis.com/login";
 		String actuall1=driver.getCurrentUrl();
 		if(actuall1.equals(expectedl1)) {
