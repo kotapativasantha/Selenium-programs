@@ -17,7 +17,7 @@ public class Verifyregister {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@name='radiooptions' and @value='FeMale']")).click();
 		WebElement month=driver.findElement(By.xpath("//select[@placeholder='Month']"));
-		Select mth=new Select(month);
+		Select mth=new Select (month);
 		List<WebElement>monthcount=mth.getOptions();
 		System.out.println(monthcount.size());
 		for(int i=0;i<monthcount.size();i++)
